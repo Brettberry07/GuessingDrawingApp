@@ -1,13 +1,9 @@
-
-
 from Drawing.globals import *
 from Drawing.button import Button
 from Drawing.border import Frame
 
-
 # Initialize the game
 pygame.init()
-
 
 def on_clear_press():
     print("Clear")
