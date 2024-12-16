@@ -32,6 +32,7 @@ class Grid:
     def check_point(x: float) -> float:
         return - ((x ** 2.7 ) * 0.00001) + 489
 
+
     @staticmethod
     def graph_func() -> None:
         step: int = 1
