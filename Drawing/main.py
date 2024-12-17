@@ -26,6 +26,9 @@ def on_submit_press():
     # Saving the greyscale image using PIL
     Image.fromarray(canvas_array).save("./Assets/canvas_gray.png")              # Convert the array to an image
 
+    # Resizing the image to 28x28
+    Image.fromarray(canvas_array).resize((28, 28)).save("./Assets/small_image.png")  # Convert the array to an image and resize
+
     time.sleep(0.5)
 
     canvas_screen.fill(BACKGROUND_COLOR)

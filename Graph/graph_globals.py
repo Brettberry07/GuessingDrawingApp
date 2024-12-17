@@ -1,6 +1,8 @@
 import pygame
+import math
 import sys
 import time
+
 
 # constants
 CANVAS_RECT = pygame.Rect(10, 10, 680, 490) # this is anywhere within the drawing region

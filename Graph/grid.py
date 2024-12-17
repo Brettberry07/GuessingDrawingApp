@@ -37,6 +37,6 @@ class Grid:
     def graph_func() -> None:
         step: int = 1
         for x in range(0, SCREEN_WIDTH, step):
-            pygame.draw.line(screen, (0, 0, 0), (x, Grid.check_point(x)), (x + step, Grid.check_point(x + step)), 2)
+            pygame.draw.line(screen, (0, 0, 255), (x, Grid.check_point(x)), (x + step, Grid.check_point(x + step)), 2)
 
 
